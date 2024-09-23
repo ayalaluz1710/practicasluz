@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    <header>
+        <h1>Formularios HTML</h1>
+       </header>
+   
+   <main class="cuerpo">
+   
+   <div class="item">
+   
+   <h2>Tu Futuro Empieza Aquí</h2>
+   <p>¡Estás a punto de dar el primer paso hacia un futuro lleno de oportunidades! Completa nuestro sencillo formulario de contacto y comienza a construir tu camino hacia el éxito académico. Al registrarte, estarás abriendo las puertas a un mundo de posibilidades, desde programas educativos innovadores hasta oportunidades de crecimiento personal y profesional. No pierdas más tiempo, tu futuro brillante te espera. ¡Regístrate ahora y comienza a convertir tus sueños en realidad!</p>
+   
+   </div>
+   
+       <div class="item">
+   
+   <form action="procesar.php" method="post">
+   
+   <input type="text" name="nombre" placeholder="Escribe tu nombre">
+   
+   <input type="tel" name="cel" placeholder="Coloca tu telefono">
+   
+   <input type="email" name="email" placeholder="Coloca tu email">
+   
+   <input list="itson">
+   <datalist id="itson">
+       <option value="Estudiante"></option>
+       <option value="Empleado"></option>
+       <option value="Egresado"></option>
+   </datalist>
+   
+   <textarea name="mensaje" id="" cols="30" rows="10" placeholder="mensaje"></textarea>
+   
+   <input id= "btn" type="submit" value="Enviar">
+   
+   </form>
+       </div>
+   
+   </main>
+   
+   
+       <footer class="pie">
+           <p>Sitio creado por <a href="https://es.wikipedia.org/wiki/Star_Wars:_Episodio_IV_-_Una_nueva_esperanza" target="_blank">StarWars</a></p>
+       </footer>
+</body>
+</html>

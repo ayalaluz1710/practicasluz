@@ -1,0 +1,38 @@
+/*DOCUMENTO CSS*/
+
+*{margin: 0;
+    padding: 0;}
+
+body{background-color: #393939;}
+
+.cabecera{background-color:#ffd900 ;
+    padding: 15px 15px;
+    color:#393939;
+    text-shadow: 2px 2px 3px white ;
+    font-family: "Lora", serif;
+    font-style: normal;
+    font-size:2em;
+    text-align: center;
+    }
+
+.cuerpo{color: white;
+    font-family: "Hind Siliguri", sans-serif;
+    font-style: normal;}
+
+.impo h2{color: #ffd900;}
+
+.impo{padding: 20px 20px;}
+
+.pie{background-color: #ffd900;
+                        padding: 20px 20px;
+                        color: #393939;}
+                        
+
+ a.items {font-size: 3em;
+          color:white;}
+                    
+.bi-facebook:hover{ color: #4b4bde;}
+                    
+.bi-instagram:hover{color: #ce2cce;}
+                    
+.bi-twitter-x:hover{color: #070707;}

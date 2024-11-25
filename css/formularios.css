@@ -1,0 +1,25 @@
+/*DOCUMENTO CSS*/
+
+*{margin: 0;
+    padding: 0;}
+
+body{ font-family: "Ubuntu", sans-serif;}
+
+.cabecera{ min-height: 1px;
+           padding: 20px 0px;
+           text-align: center;
+           background: rgb(34,193,195);
+           background: linear-gradient(180deg, rgba(34,193,195,1) 0%, rgba(25,107,101,1) 100%);}
+
+.cuerpo{min-height: 500px;
+        padding: 0px 0px 60px 0px;
+        background: url(/practicas_luz/img/gray_line_drawings_of_organic_shapes_background.jpg);
+        background-size:  40% 50%;}
+
+.contenido{background: rgb(255,255,255);
+           background: linear-gradient(0deg, rgba(255,255,255,0.49744404597776615) 75%, rgba(25,107,101,1) 100%); 
+           display: flex;}
+
+.contenido div{width: 50%;}
+
+.pie{}

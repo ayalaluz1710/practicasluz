@@ -1,0 +1,18 @@
+/*DOCUMENTO CSS*/
+
+*{margin: 0;
+  padding: 0;}
+
+body{background: beige;}
+
+.cabecera{font-family: "Agbalumo", system-ui;
+           background-color: white;
+           color: hwb(120 9% 24%);
+           font-size: 1em;
+           text-align: center;
+           padding: 10px;}        
+
+
+.principal{font-family: "Rubik", sans-serif;
+           color: rgb(164, 0, 0);
+           font-size: 1em;}
